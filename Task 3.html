@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Harish</title>
+    </head>
+
+    <body>
+        <h2>Registration Form</h2>
+        <form>
+            <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Fullname" name="full name" required>
+
+            <br><br>
+
+            <label for="User">Username:</label>
+            <input type="text" id="User" readonly value="user123" name="Username">
+
+            <br><br>
+
+            <label for="psd">Password:</label>
+            <input type="password" id="psd" name="password" placeholder="Enter Password" required>
+
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="date of birth">
+
+            <br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" value="male" id="male" name="gender" checked> Male <br>
+            <input type="radio" value="female" id="female" name="gender"> Female <br>
+            <input type="radio" value="others" id="others" name="gender"> Others <br>
+
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="eml">Email:</label>
+            <input type="email" id="eml" placeholder="Enter Email" name="email" required>
+
+            <br><br>
+
+            <label for="num">Phone:</label>
+            <input type="tel" id="num" name="phone" placeholder="e.g., 9876543210">
+
+            <br><br>
+
+            <label for="adrs"> Address</label> <br>
+            <textarea name="address" id="adrs" placeholder="Your Address here..." cols="40" rows="4"></textarea>
+
+            <br><br>
+
+            <label for="profile">Search Profile:</label>
+            <input type="search" id="profile" name="search profile">
+
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <br>
+            <label for="hobbies">Select Hobbies:</label> <br><br>
+            <input type="checkbox" id="hobbies" value="cricket" checked> Cricket
+            <input type="checkbox" id="hobbies" value="music"> Music
+            <input type="checkbox" disabled id="hobbies" value="reading"> Reading (Disabled)
+
+            <br><br>
+
+            <label for="col">Favorite Color:</label>
+            <input type="color" id="col" name="colour">
+
+            <br><br>
+
+            <label for="vol">Set Volume (0-100):</label>
+            <input type="range" id="vol" name="volume">
+
+            <br><br>
+
+            <label for="time">Best Contact Time:</label>
+            <input type="time" id="time" name="best time">
+
+            <br><br>
+
+            <label for="country">Select Country:</label>
+            <select id="country" name="country">
+                <optgroup label="Asia">
+                    <option>India</option>
+                    <option>China</option>
+                </optgroup>
+
+                <optgroup label="Europe">
+                    <option>France</option>
+                    <option>Germany</option>
+                </optgroup>
+            </select>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Upload Section</legend>
+            Upload Syllabus <input type="file" required>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Submit Form</legend>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button>Click Me</button>
+        </fieldset>
+        </form>
+    </body>
+</html>
