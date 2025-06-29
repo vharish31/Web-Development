@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #5036d1;
+}
+
+.header {
+    background:linear-gradient(30deg,#535d61,#08b7fc);
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px black;
+    word-spacing: 5px;
+}
+
+.subtitle{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.navigation{
+    background: linear-gradient(30deg,#535d61,#093240);
+}
+
+.nav-list{
+    text-align: center;
+    padding: 15px;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.conent{
+    padding: 50%;
+    text-align: center;
+
+}
+
+.named-color {
+    background-color: rgb(250, 162, 114);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.line{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.hex-color{
+    background-color: rgb(255, 115, 0);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rgb-color{
+    background-color: rgb(0, 149, 255);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rgba-color{
+    background-color: rgb(222, 130, 238);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.hsl-color{
+    background-color: rgb(0, 255, 0);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sec{
+    text-align: center;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.solid{
+    background-color: rgb(0, 149, 255);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gradient{
+    background: linear-gradient(to right,indigo,violet);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.radial{
+    background: radial-gradient(circle,red,yellow);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.background{
+    background-size: cover;
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: url('../img/nexa robot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#border{
+    border: 10px solid transparent;    
+    border-image:url('../img/nexa robot.png') 30 stretch;
+    padding: 70px;
+    color: white;
+    text-shadow: black 2px 2px 4px;
+    font-style: italic;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+
+}
